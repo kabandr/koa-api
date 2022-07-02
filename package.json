@@ -1,0 +1,36 @@
+{
+  "name": "koa-api",
+  "version": "1.0.0",
+  "description": "An example of Koa CRUD API with MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabandr/koa-api.git"
+  },
+  "keywords": [
+    "Koa",
+    "js",
+    "nodejs",
+    "crud",
+    "mongodb"
+  ],
+  "author": "Rene Kabanda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kabandr/koa-api/issues"
+  },
+  "homepage": "https://github.com/kabandr/koa-api#readme",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "mongoose": "^6.4.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
